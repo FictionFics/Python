@@ -4,7 +4,7 @@ with open('README.rst', encoding='UTF-8') as f:
     readme = f.read()
 
 setup(
-    name='hr'
+    name='hr',
     version='1.0.0',
     description='Command line user export utility',
     long_description=readme,
