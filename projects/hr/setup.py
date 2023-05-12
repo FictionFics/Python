@@ -12,5 +12,8 @@ setup(
     author_email='your_email@example.com',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    install_requires=[]
+    install_requires=[],
+    entry_points={
+        'console_scripts': 'hr=hr.cli:main',
+    },
 )
